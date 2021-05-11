@@ -13,22 +13,9 @@
     flex-direction: column;
     margin-top: 15px;
     margin-bottom: 20px;
-   
-    align-items: center;
 }
 .buttons{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
-}
-
-@media(min-width:600px){
-    .buttoncart{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .buttons{
-        margin-top: 0;
-    }
 }

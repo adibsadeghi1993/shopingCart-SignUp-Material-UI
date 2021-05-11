@@ -1,4 +1,4 @@
-import  React from "react";
+import { React from "react";
 import { Formik, Form } from "formik";
 import "./validation.css";
 

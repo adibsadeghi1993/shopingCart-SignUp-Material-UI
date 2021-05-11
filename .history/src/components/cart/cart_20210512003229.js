@@ -44,11 +44,11 @@ const Cart = ({cart,decreaseHandler,increaseHandler,setCart}) => {
 
      </Grid>
      <div className="buttoncart">
-         <Typography variant="h5"   >
-             totalPrice:${totalPrice}
+         <Typography variant="h4"   >
+             subtotal:${totalPrice}
  
          </Typography>
-         <div className="buttons" >
+         <div >
              <Button  className={classes.emptyButton}  size="large" type="button" variant="contained" color="secondary">Empty Cart </Button>
             <Link to="/checkout"  > <Button  className={classes.checkoutButton}  size="large" type="button" variant="contained" color="primary">Checkout </Button></Link>
          </div>

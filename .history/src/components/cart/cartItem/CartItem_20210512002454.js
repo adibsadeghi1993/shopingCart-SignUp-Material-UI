@@ -21,7 +21,7 @@ const CartItem = ({item,decreaseHandler,increaseHandler,cart,setCart}) => {
             <CardMedia  image={item.media.source} alt={item.name} className={classes.media}  />
             <CardContent>
                 <Typography variant="h5" >{item.name}</Typography>
-                <Typography variant="h6" >{item.price.formatted_with_symbol}</Typography>
+                <Typography variant="" >{item.price.formatted_with_symbol}</Typography>
             </CardContent>
             <CardActions className={classes.cardActions}  >
                    <div className={classes.buttons}>

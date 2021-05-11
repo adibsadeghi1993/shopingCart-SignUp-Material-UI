@@ -13,8 +13,7 @@
     flex-direction: column;
     margin-top: 15px;
     margin-bottom: 20px;
-   
-    align-items: center;
+    background-color: red;
 }
 .buttons{
     margin-top: 10px;
