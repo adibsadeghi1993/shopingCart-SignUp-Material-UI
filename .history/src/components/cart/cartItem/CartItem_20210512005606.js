@@ -20,10 +20,7 @@ const CartItem = ({item,decreaseHandler,increaseHandler,cart,setCart}) => {
         <Card>
             <CardMedia  image={item.media.source} alt={item.name} className={classes.media}  />
             <CardContent>
-           <div className="cartcontent">
-           <h2 >{item.name}</h2>
-                <h2 >{item.price.formatted_with_symbol}</h2>
-           </div>
+           <div></div>
             </CardContent>
             <CardActions className={classes.cardActions}  >
                    <div className={classes.buttons}>

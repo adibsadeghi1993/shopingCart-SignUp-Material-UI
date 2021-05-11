@@ -21,9 +21,9 @@ const Product = ({ product,cartHandler }) => {
       />
       <CardContent>
         <div className={classes.cardContent}>
-          <h2>
+          <h1>
             {product.name}
-          </h2>
+          </h1>
           <h2>
             {product.price.formatted_with_symbol}
           </h2>

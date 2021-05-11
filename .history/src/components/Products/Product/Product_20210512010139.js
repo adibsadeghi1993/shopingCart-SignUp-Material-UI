@@ -24,9 +24,9 @@ const Product = ({ product,cartHandler }) => {
           <h2>
             {product.name}
           </h2>
-          <h2>
+          <h4>
             {product.price.formatted_with_symbol}
-          </h2>
+          </h4>
         </div>
         <Typography
       

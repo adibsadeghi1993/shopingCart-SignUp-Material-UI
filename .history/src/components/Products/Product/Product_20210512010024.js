@@ -21,12 +21,12 @@ const Product = ({ product,cartHandler }) => {
       />
       <CardContent>
         <div className={classes.cardContent}>
-          <h2>
+          <h3 variant="h5" gutterBottom>
             {product.name}
-          </h2>
-          <h2>
+          </Typography>
+          <Typography variant="h5">
             {product.price.formatted_with_symbol}
-          </h2>
+          </Typography>
         </div>
         <Typography
       

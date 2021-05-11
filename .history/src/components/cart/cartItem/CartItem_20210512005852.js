@@ -22,7 +22,7 @@ const CartItem = ({item,decreaseHandler,increaseHandler,cart,setCart}) => {
             <CardContent>
            <div className="cartcontent">
            <h2 >{item.name}</h2>
-                <h2 >{item.price.formatted_with_symbol}</h2>
+                <h3 >{item.price.formatted_with_symbol}</h5>
            </div>
             </CardContent>
             <CardActions className={classes.cardActions}  >
