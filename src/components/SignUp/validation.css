@@ -5,11 +5,13 @@
   
   .main_form{
       margin-top: 72px;
+      padding-top: 20px;
+      padding-bottom: 20px;
   }
  
   
   .form {
-    width: 27%;
+    width: 45%;
  
     margin: auto;
     display: flex;
@@ -31,6 +33,7 @@
     display: flex;
   
     justify-content: space-between;
+    margin-bottom: 3px;
   }
   
   .message {
@@ -39,6 +42,9 @@
   
   .label {
     margin-top: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .btn {
     cursor: pointer;
@@ -68,6 +74,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 5px 10px;
+    width: 100%;
   }
   .input:focus {
     outline: none;

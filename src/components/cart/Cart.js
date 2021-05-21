@@ -18,10 +18,6 @@ const Cart = ({cart,decreaseHandler,increaseHandler,setCart}) => {
         0);
           setTotalPrice(price)
         
-        // return () => {
-        //     setTotalPrice(0)
-           
-        // }
     }, [cart])
 
 
@@ -34,7 +30,7 @@ const Cart = ({cart,decreaseHandler,increaseHandler,setCart}) => {
     )
     const FilledCart=()=>(
      <>
-     <Grid container spacing={3} >
+     <Grid container spacing={3}  className="cart">
          {cart.map((item)=>(
              <Grid item xs={12} sm={4} key={item.id}>
                  <CartItem cart={cart} setCart={setCart}  item={item} increaseHandler={increaseHandler} decreaseHandler={decreaseHandler}     />

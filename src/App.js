@@ -74,7 +74,8 @@ function App() {
   };
 
   return (
-    <Router>
+    <div className="main-content">
+      <Router>
       <Navbar length={cart.length} />
       <Switch>
         <Route
@@ -104,6 +105,7 @@ function App() {
         <Route path="/checkout" exact component={Login}  />
       </Switch>
     </Router>
+    </div>
   );
 }
 

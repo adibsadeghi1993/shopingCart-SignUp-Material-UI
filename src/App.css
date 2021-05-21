@@ -20,6 +20,7 @@
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 @media(min-width:600px){
@@ -30,6 +31,7 @@
     }
     .buttons{
         margin-top: 0;
+    
     }
 }
 
@@ -37,4 +39,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.main-content{
+    background-color: #e0eef5;
+    min-height: 100vh;
 }
