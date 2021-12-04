@@ -12,6 +12,10 @@ const Cart = ({cart,decreaseHandler,increaseHandler,setCart}) => {
   
     const [totalPrice,setTotalPrice]=useState(0)
 
+   const emptyCartHandler=()=>[
+  setCart([])
+    ]
+
     useEffect(() => {
        const price=  cart.reduce(
         (previous, current)=>previous+current.price.raw*current.qty, 
@@ -45,7 +49,7 @@ const Cart = ({cart,decreaseHandler,increaseHandler,setCart}) => {
  
          </Typography>
          <div className="buttons" >
-             <Button  className={classes.emptyButton}  size="large" type="button" variant="contained" color="secondary">Empty Cart </Button>
+             <Button  className={classes.emptyButton}  size="large" type="button" variant="contained" color="secondary" onClick={emptyCartHandler}>Empty Cart </Button>
             <Link to="/checkout"  > <Button  className={classes.checkoutButton}  size="large" type="button" variant="contained" color="primary">Checkout </Button></Link>
          </div>
 
